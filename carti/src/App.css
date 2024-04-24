@@ -13,73 +13,127 @@ body,
 }
 
 body {
+  background-color: rgb(103, 123, 240);
   margin: 0;
-  color: aqua;
 }
 
 .Sidebar {
-  padding: 5px;
+  padding: 0.5vh 1vh;
   background-color: rgb(17, 24, 39);
-  display: flex;
+  display: block;
   flex-direction: column;
+  visibility: visible;
   height: 100vh;
   width: 30vh;
+  color: aquamarine;
 }
 
 .PostBookBtn {
-  
-  background-color: aqua;
+
+  background-color: aquamarine;
   padding: 2vh 2vh;
   border-radius: 1vh;
-  margin: 3vh 4vh;
+  margin: 2.4vh 4vh;
 }
+
 .PostBookBtn:hover {
-  background-color: #555; 
+  background-color: #555;
 }
-.FilterAuthors{
+
+.FilterAuthors {
   display: block;
-  flex-direction: column;
   overflow: auto;
-  -webkit-scrollbar-thumnb:vertical{background-color: blue};
   height: 15vh;
-  margin: 0vh 0vh 5vh 0vh;
+  margin: 0vh 0vh 2vh 0vh;
 }
-.FilterByAuthor{
+
+.author:hover {
+  color: #555;
+  font-size: 2.5vh;
+}
+
+.genre:hover {
+  color: #555;
+  font-size: 2.5vh;
+}
+
+.publish:hover {
+  color: #555;
+  font-size: 2.5vh;
+}
+
+/* .FilterByAuthor {
   /* border: 1px solid black; */
-}
-.FilterPublishing{
+
+
+.FilterPublishing {
   overflow: auto;
   display: block;
-  flex-direction: column;
-  height: 10vh;
-  margin: 2vh 0vh;
+  height: 13vh;
+  margin: 1vh 0vh;
 }
-.FilterTitle{
+
+.FilterTitle {
   font-family: 'Courier New', Courier, monospace;
   margin-top: 0px;
 }
-.SearchAuthor{
+
+.SearchAuthor {
   margin: 1vh 0vh;
 }
-.FilterByPrice{
-  margin: 5vh 0vh;
+
+.FilterByPrice {
+  margin: 2vh 0vh;
 }
+
+.FilterByGenreGenres {
+  overflow: auto;
+  display: block;
+  height: 13vh;
+  margin: 1vh 0vh;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: aqua; 
+  background: aquamarine;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 50vh;
-  background: #888; 
+  background: #888;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
+}
+
+.BookCardContainer {
+  width: 28vh;
+  height: 45vh;
+  border: 1vh solid black;
+  text-align: center;
+}
+
+.BookCard {
+  margin: 2vh 4vh;
+}
+
+img {
+  height: 30.2vh;
+  width: 26.3vh;
+}
+
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bookelements {
+  margin: 1vh 0vh;
 }

@@ -10,7 +10,7 @@ export default function FilterByAuthor() {
           name="Filter By Authors"
           value="StephKing"
         />
-        <label htmlFor="StephKing">Stephen King</label>
+        <label className="author" htmlFor="StephKing">Stephen King</label>
         <hr />
         <input
           id="DeanRK"
@@ -18,7 +18,7 @@ export default function FilterByAuthor() {
           name="Filter By Authors"
           value="DeanRK"
         />
-        <label htmlFor="DeanRK">Dean R Koontz</label>
+        <label className="author" htmlFor="DeanRK">Dean R Koontz</label>
         <hr />
         <input
           id="AgathaC"
@@ -26,7 +26,7 @@ export default function FilterByAuthor() {
           name="Filter By Authors"
           value="AgathaC"
         />
-        <label htmlFor="AgathaC">Agatha Christie</label>
+        <label className="author" htmlFor="AgathaC">Agatha Christie</label>
         <hr />
         <input
           id="HPLove"
@@ -34,7 +34,7 @@ export default function FilterByAuthor() {
           name="Filter By Authors"
           value="HPLove"
         />
-        <label htmlFor="HPLove">H P Lovecraft</label>
+        <label className="author" htmlFor="HPLove">H P Lovecraft</label>
         <hr />
         <input
           id="KevinDut"
@@ -42,7 +42,7 @@ export default function FilterByAuthor() {
           name="Filter By Authors"
           value="KevinDut"
         />
-        <label htmlFor="KevinDut">Kevin Duton</label>
+        <label className="author" htmlFor="KevinDut">Kevin Duton</label>
         <hr />
         <input
           id="MManson"
@@ -50,7 +50,7 @@ export default function FilterByAuthor() {
           name="Filter By Authors"
           value="MManson"
         />
-        <label htmlFor="MManson">Mark Manson</label>
+        <label className="author" htmlFor="MManson">Mark Manson</label>
         <hr />
       </div>
     </div>
